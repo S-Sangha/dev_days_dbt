@@ -4,7 +4,7 @@
 ) }}
 
 SELECT
-    id AS order_id,
+    id AS order_id
     user_id,
     product_id,
     quantity
