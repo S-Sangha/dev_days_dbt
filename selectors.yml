@@ -6,4 +6,3 @@ selectors:
   - name: costs_model
     definition:
       tag: costs_model
-
