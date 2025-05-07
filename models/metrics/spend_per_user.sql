@@ -5,7 +5,7 @@
 
 WITH user_spends AS (
     SELECT
-        costs.user_id,
+        costs.user_id
         users.user_name AS user_name, -- Adding the user name column
         SUM(costs.total_cost) AS total_spend
     FROM {{ ref('costs') }} AS costs
