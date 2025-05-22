@@ -1,12 +1,10 @@
+version: 2
+
 selectors:
-  - name: all_models
+  - name: etleap_schedule
     definition:
-      tag: all_models
-  - name: spend_by_login
-    definition:
-      method: fqn
-      value: spend_by_login
-  - name: logins_by_user
-    definition:
-      method: fqn
-      value: logins_by_user
+      union:
+        - method: fqn
+          value: model_a
+        - method: fqn
+          value: model_b
