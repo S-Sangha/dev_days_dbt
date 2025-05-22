@@ -2,4 +2,7 @@
     materialized='table'
 ) }}
 
-select 1 as id, 'test_a' as name 
+select 
+    id,
+    name
+from {{ source('shannon_test', 'source_table_a') }} 

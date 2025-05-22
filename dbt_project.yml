@@ -36,3 +36,4 @@ models:
       +materialized: table
     model_b:
       +materialized: table
+
