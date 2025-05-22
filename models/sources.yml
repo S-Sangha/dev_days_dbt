@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: SHANNON
+  - name: shannon_test
     tables:
       - name: source_table_a
       - name: source_table_b 
