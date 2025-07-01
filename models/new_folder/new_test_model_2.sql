@@ -1,1 +1,0 @@
-SELECT * FROM some_test_model
