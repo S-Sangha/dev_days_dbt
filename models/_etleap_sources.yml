@@ -1,13 +1,13 @@
 version: 2
 sources:
-  - name: '!@#%$_special/ characters_schema'
+  - name: new_schema_dbt_editor_qa
     database: dev_etleap
     tables:
-      - name: special_characters_schema_test
+      - name: new_schema_qa_test
   - name: shannon_test
     database: dev_etleap
     tables:
       - name: '!@#%$_special_characters_test'
+      - name: changed_table_name_MiXEd_caSe_TEst
       - name: lower_case_test
-      - name: MiXEd_caSe_TEst
       - name: UPPER_CASE_TEST
