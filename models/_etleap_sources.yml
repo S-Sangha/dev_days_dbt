@@ -1,0 +1,13 @@
+version: 2
+sources:
+  - name: '!@#%$_special/ characters_schema'
+    database: dev_etleap
+    tables:
+      - name: special_characters_schema_test
+  - name: shannon_test
+    database: dev_etleap
+    tables:
+      - name: '!@#%$_special_characters_test'
+      - name: lower_case_test
+      - name: MiXEd_caSe_TEst
+      - name: UPPER_CASE_TEST
