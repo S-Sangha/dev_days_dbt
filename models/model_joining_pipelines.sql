@@ -14,6 +14,7 @@ contacts as (
 
 select
     customers.customer_id,
+	customers.another_field,
     contacts.first_name,
     contacts.last_name,
     customers.address
