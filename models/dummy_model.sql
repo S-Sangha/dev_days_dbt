@@ -1,4 +1,3 @@
 select
     1 as id,
-    'hello_dbt' as message
-    hello there
+    'hello_dbt' as hello_text
