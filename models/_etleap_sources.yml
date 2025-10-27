@@ -1,3 +1,15 @@
 version: 2
-sources: [
-    ]
+sources:
+  - name: SHANNON
+    database: ETLEAP_DEV
+    quoting:
+        schema: true
+        identifier: true
+    tables:
+      - name: dev_employees
+      - name: employees_shannon_test
+      - name: employees_timestamp
+      - name: LOCAL_ORACLE_TRIM_TEST
+      - name: LOCAL_POSTGRES_TRIM_TEST
+      - name: LOCAL_SQL_SERVER_TRIM_TEST
+      - name: ROLLBACK_EMPLOYEES
