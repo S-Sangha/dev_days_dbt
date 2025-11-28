@@ -1,13 +1,42 @@
 version: 2
 sources:
-  - name: '!@#%$_special/ characters_schema'
-    database: dev_etleap
+  - name: SHANNON
+    database: ETLEAP_DEV
+    quoting:
+        schema: true
+        identifier: true
     tables:
-      - name: special_characters_schema_test
-  - name: shannon_test
-    database: dev_etleap
-    tables:
-      - name: '!@#%$_special_characters_test'
-      - name: lower_case_test
-      - name: MiXEd_caSe_TEst
-      - name: UPPER_CASE_TEST
+      - name: dev_employees_18_11_2
+      - name: dev_employees_18_11_3
+      - name: dev_employees_18_11_4
+      - name: dev_employees_18_11_5
+      - name: shannon_dev_employees_19_11
+      - name: shannon_dev_employees_19_11_2
+      - name: shannon_dev_employees_19_11_3
+      - name: shannon_dev_employees_19_11_4
+      - name: shannon_dev_employees_19_11_5
+      - name: shannon_dev_employees_19_11_6
+      - name: shannon_dev_employees_19_11_7
+      - name: shannon_dev_employees_19_11_8
+      - name: shannon_dev_employees_19_11_9
+      - name: shannon_dev_employees_20_11
+      - name: shannon_dev_employees_20_11_10
+      - name: shannon_dev_employees_20_11_11
+      - name: shannon_dev_employees_20_11_2
+      - name: shannon_dev_employees_20_11_3
+      - name: shannon_dev_employees_20_11_4
+      - name: shannon_dev_employees_20_11_5
+      - name: shannon_dev_employees_20_11_7
+      - name: shannon_dev_employees_20_11_8
+      - name: shannon_dev_employees_20_11_9
+      - name: shannon_dev_employees_21_11
+      - name: shannon_dev_employees_21_11_10
+      - name: shannon_dev_employees_21_11_11
+      - name: shannon_dev_employees_21_11_2
+      - name: shannon_dev_employees_21_11_3
+      - name: shannon_dev_employees_21_11_4
+      - name: shannon_dev_employees_21_11_5
+      - name: shannon_dev_employees_21_11_6
+      - name: shannon_dev_employees_21_11_7
+      - name: shannon_dev_employees_21_11_8
+      - name: shannon_dev_employees_21_11_9
