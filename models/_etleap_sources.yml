@@ -10,6 +10,8 @@ sources:
       - name: dev_employees_18_11_3
       - name: dev_employees_18_11_4
       - name: dev_employees_18_11_5
+      - name: EMPLOYEES_1
+      - name: EMPLOYEES_2
       - name: shannon_dev_employees_19_11
       - name: shannon_dev_employees_19_11_2
       - name: shannon_dev_employees_19_11_3
