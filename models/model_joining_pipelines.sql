@@ -4,13 +4,13 @@
 
 with customers as (
     select *
-    {{ source('SHANNON', 'EMPLOYEES_1') }}
+    from {{ source('SHANNON', 'EMPLOYEES_1') }}
 ),
 
 contacts as (
     select *
-    {{ source('SHANNON', 'EMPLOYEES_2') }}
-),
+    from {{ source('SHANNON', 'EMPLOYEES_2') }}
+)
 
 select
     customers.id,
