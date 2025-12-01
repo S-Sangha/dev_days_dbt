@@ -10,7 +10,7 @@ with customers as (
 contacts as (
     select *
     {{ source('SHANNON', 'EMPLOYEES_2') }}
-)
+),
 
 select
     customers.id,
