@@ -7,3 +7,4 @@ select
 from {{ source('SHANNON', 'EMPLOYEES_1') }}
 
 
+
