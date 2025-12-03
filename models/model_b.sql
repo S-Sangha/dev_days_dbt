@@ -4,5 +4,5 @@
 
 select 
     id,
-    name
+    first_name
 from {{ source('SHANNON', 'EMPLOYEES_4') }}
