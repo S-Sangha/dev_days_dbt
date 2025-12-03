@@ -5,4 +5,4 @@
 select 
     id,
     name
-from {{ source('shannon_test', 'source_table_b') }} 
+from {{ source('SHANNON', 'EMPLOYEES_4') }}
