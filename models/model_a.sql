@@ -5,9 +5,3 @@
 select 
     id
 from {{ source('SHANNON', 'EMPLOYEES_3') }}
-
-
-
-
-
-
