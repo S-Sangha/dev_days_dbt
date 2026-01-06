@@ -6,39 +6,13 @@ sources:
         schema: true
         identifier: true
     tables:
-      - name: dev_employees_18_11_2
-      - name: dev_employees_18_11_3
-      - name: dev_employees_18_11_4
-      - name: dev_employees_18_11_5
       - name: EMPLOYEES_1
       - name: EMPLOYEES_2
-      - name: shannon_dev_employees_19_11
-      - name: shannon_dev_employees_19_11_2
-      - name: shannon_dev_employees_19_11_3
-      - name: shannon_dev_employees_19_11_4
-      - name: shannon_dev_employees_19_11_5
-      - name: shannon_dev_employees_19_11_6
-      - name: shannon_dev_employees_19_11_7
-      - name: shannon_dev_employees_19_11_8
-      - name: shannon_dev_employees_19_11_9
-      - name: shannon_dev_employees_20_11
-      - name: shannon_dev_employees_20_11_10
-      - name: shannon_dev_employees_20_11_11
-      - name: shannon_dev_employees_20_11_2
-      - name: shannon_dev_employees_20_11_3
-      - name: shannon_dev_employees_20_11_4
-      - name: shannon_dev_employees_20_11_5
-      - name: shannon_dev_employees_20_11_7
-      - name: shannon_dev_employees_20_11_8
-      - name: shannon_dev_employees_20_11_9
-      - name: shannon_dev_employees_21_11
-      - name: shannon_dev_employees_21_11_10
-      - name: shannon_dev_employees_21_11_11
-      - name: shannon_dev_employees_21_11_2
-      - name: shannon_dev_employees_21_11_3
-      - name: shannon_dev_employees_21_11_4
-      - name: shannon_dev_employees_21_11_5
-      - name: shannon_dev_employees_21_11_6
-      - name: shannon_dev_employees_21_11_7
-      - name: shannon_dev_employees_21_11_8
-      - name: shannon_dev_employees_21_11_9
+      - name: employees_via_batch_execute
+      - name: employees_via_batch_execute2
+      - name: employees_via_batch_execute3
+      - name: employees_via_batch_execute4
+      - name: employees_via_batch_execute5
+      - name: employees_via_batch_execute6
+      - name: employees_via_batch_execute7
+      - name: employees_via_batch_execute8
