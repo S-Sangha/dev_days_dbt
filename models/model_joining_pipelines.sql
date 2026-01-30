@@ -4,19 +4,19 @@
 
 with customers as (
     select *
-    from {{ source('shannon_test', 'lower_case_test') }}
+    from {{ source('SHANNON', 'EMPLOYEES_1') }}
 ),
 
 contacts as (
     select *
-    from {{ source('shannon_test', 'UPPER_CASE_TEST') }}
+    from {{ source('SHANNON', 'EMPLOYEES_2') }}
 )
 
 select
-    customers.customer_id,
+    customers.id,
     contacts.first_name,
     contacts.last_name,
-    customers.address
+    customers.department
 from customers
 left join contacts
-    on customers.customer_id = contacts.customer_id
+    on customers.id = contacts.id

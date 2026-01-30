@@ -1,13 +1,18 @@
 version: 2
 sources:
-  - name: '!@#%$_special/ characters_schema'
-    database: dev_etleap
+  - name: SHANNON
+    database: ETLEAP_DEV
+    quoting:
+        schema: true
+        identifier: true
     tables:
-      - name: special_characters_schema_test
-  - name: shannon_test
-    database: dev_etleap
-    tables:
-      - name: '!@#%$_special_characters_test'
-      - name: lower_case_test
-      - name: MiXEd_caSe_TEst
-      - name: UPPER_CASE_TEST
+      - name: EMPLOYEES_1
+      - name: EMPLOYEES_2
+      - name: employees_via_batch_execute
+      - name: employees_via_batch_execute2
+      - name: employees_via_batch_execute3
+      - name: employees_via_batch_execute4
+      - name: employees_via_batch_execute5
+      - name: employees_via_batch_execute6
+      - name: employees_via_batch_execute7
+      - name: employees_via_batch_execute8
