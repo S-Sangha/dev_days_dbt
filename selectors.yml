@@ -8,3 +8,5 @@ selectors:
           value: model_a
         - method: fqn
           value: model_b
+        - method: fqn
+          value: s3_json_files
