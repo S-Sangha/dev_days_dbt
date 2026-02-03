@@ -16,3 +16,5 @@ sources:
       - name: employees_via_batch_execute6
       - name: employees_via_batch_execute7
       - name: employees_via_batch_execute8
+      - name: SHANNON_TEST___EMPLOYEES_29_1
+      - name: shannon_test_students
