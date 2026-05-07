@@ -4,5 +4,5 @@
 
 select 
     id,
-    name
-from {{ source('shannon_test', 'dbt_source') }}
+    first_name
+from {{ source('shannon_test', 'etleap___person') }}
