@@ -1,18 +1,16 @@
 version: 2
 sources:
-  - name: SHANNON
-    database: ETLEAP_DEV
+  - name: shannon_test
+    database: dev_etleap
     quoting:
         schema: true
         identifier: true
     tables:
-      - name: EMPLOYEES_1
-      - name: EMPLOYEES_2
-      - name: employees_via_batch_execute
-      - name: employees_via_batch_execute2
-      - name: employees_via_batch_execute3
-      - name: employees_via_batch_execute4
-      - name: employees_via_batch_execute5
-      - name: employees_via_batch_execute6
-      - name: employees_via_batch_execute7
-      - name: employees_via_batch_execute8
+      - name: etleap___car
+      - name: etleap___department
+      - name: etleap___luqman_iceberg
+      - name: etleap___no_pk
+      - name: etleap___parameterized
+      - name: etleap___person
+      - name: etleap___timeout_test
+      - name: etleap___unicode_test
