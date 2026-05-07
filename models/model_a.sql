@@ -4,4 +4,4 @@
 
 select 
     id
-from {{ source('SHANNON', 'EMPLOYEES_1') }}
+from {{ source('shannon_test', 'dbt_source') }}
