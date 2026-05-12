@@ -1,18 +1,3 @@
 version: 2
-sources:
-  - name: SHANNON
-    database: ETLEAP_DEV
-    quoting:
-        schema: true
-        identifier: true
-    tables:
-      - name: EMPLOYEES_1
-      - name: EMPLOYEES_2
-      - name: employees_via_batch_execute
-      - name: employees_via_batch_execute2
-      - name: employees_via_batch_execute3
-      - name: employees_via_batch_execute4
-      - name: employees_via_batch_execute5
-      - name: employees_via_batch_execute6
-      - name: employees_via_batch_execute7
-      - name: employees_via_batch_execute8
+sources: [
+    ]
