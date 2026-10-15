@@ -4,5 +4,5 @@
 
 SELECT
     id AS user_id,
-    name AS user_name
-FROM {{ source('shannon_test', 'users') }}
+    first_name AS name
+FROM {{ source('shannon_test', 'luts_and_pk') }}
