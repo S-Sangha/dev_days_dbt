@@ -1,9 +1,9 @@
 {{ config(
-    materialized='table'
+    materialized='view',
+    tags=['user_models']
 ) }}
 
-select 
-    id
-from {{ source('SHANNON', 'EMPLOYEES_1') }}
-
-
+SELECT
+    id AS user_id,
+    name AS user_name
+FROM {{ source('shannon_test', 'users') }}
